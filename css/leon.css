@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+}
+
+.header{
+    background-color: rgb(208, 243, 231);
+    display: flex;
+    width: 100%;
+    margin:auto 0px;
+    align-items:;
+    justify-content: space-between;
+}
+.ph{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: ;
+    margin: ;
+}
+.sl{
+    padding: 10px;
+    list-style: none;
+    
+}
+.sl a{
+    text-decoration: none;
+    color: rgb(81, 177, 143);
+    transition: 0.5s;
+}
+.sl  :hover{
+    color: black;
+}
+.hl{
+    font-size: smaller;
+    padding: 10px;
+
+}
+.ul st {
+    padding: 100px;
+}
+.core{
+    background-image: url(https://elzerowebschool.github.io/HTML_And_CSS_Template_One/images/landing.jpg);
+    height: 500px;
+    background-size:cover ;
+    font-family:"Work Sans";
+}
+.core-write{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top:100px ;
+    font-weight: bolder;
+    color: rgb(81, 177, 143) ;
+}
+.co2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    line-height: 1.8;  
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    background-color:(107, 175, 43);
+    padding: 10px;
+    margin: 10px;
+    background-color: #f6f6f6;
+}
+.card1 i{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+padding: 10px;
+color: #10cab7;
+}
+.card1 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Work Sans";
+}
+.card1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    line-height: 1.2;
+    font-family:"Work Sans";
+
+
+}
+.card2 i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 10px;
+    color: #10cab7;
+
+    }
+    .card2 h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:"Work Sans";
+    }
+    .card2 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        line-height: 1.2;
+        font-family:"Work Sans";
+
+    
+    }
+.card3 i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        padding: 10px;
+        color: #10cab7;
+        ;
+        }
+.card3 h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;    font-family:"Work Sans";
+
+        }
+.card3 p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            line-height: 1.2;
+            font-family:"Work Sans";
+
+        
+        }
+
+.bor{
+padding: 0px;
+border-radius: 10px;
+}    
+.bor :hover{
+    background: rgb(81, 177, 143) ;
+transition: 0.6s;
+}
+
+.cont-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: ;
+    flex-direction: column;
+}
+.h3{
+    font-size: 90px;
+    color: gray;
+    font-family:"Work Sans";
+}
+.p{
+line-height: 0.01;
+font-size: larger;
+margin: 1px auto 40px auto;
+font-family:"Work Sans";
+}
+.ser-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    margin: 20px;
+    font-family:"Work Sans";
+}
+.icon{
+    display: flex;
+    align-items:center;
+    color: #10cab7;
+}
+
+ .te{
+    display: flex;
+    flex-direction: column;
+
+ } 
+ .ser-card1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: flex-start;
+    gap: 10px;
+ } 
+ .ser-card2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: flex-start;
+    gap: 10px;
+ } 
+ .ser-card3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: flex-start;
+    gap: 10px;
+ } 
+ .ser-card4{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: flex-start;
+    gap: 10px;
+ } 
